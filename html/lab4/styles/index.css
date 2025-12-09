@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #e7e7e7;
+}
+
+.ucitaj-btn, .ocisti-btn{
+    background: #119200;
+    color: white;
+    padding: 12px 20px 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px 0px 20px 0px;
+}
+
+.ucitaj-btn:hover , .ocisti-btn:hover{
+    background: rgb(5, 100, 4);
+}
+
+.slike-div {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    gap: 1px;
+    width: 1000px;
+    height: 100%;
+    margin-bottom: 32px;
+}
+
+.slike-div img {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
